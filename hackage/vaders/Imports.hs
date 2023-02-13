@@ -5,6 +5,7 @@ module Imports
   , module Control.Monad
   , module Data.List
   , module Data.Bool
+  , module GHC.Float
   ) where
 
 import Graphics.Gloss.Interface.Pure.Game hiding (shift, rotate)
@@ -13,3 +14,4 @@ import Control.Applicative
 import Control.Monad(guard, mzero)
 import Data.List(partition)
 import Data.Bool
+import GHC.Float (int2Float)
