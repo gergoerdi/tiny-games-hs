@@ -3,13 +3,13 @@ module Imports
   , module GHC.Clock
   , module Data.Bits
   , module Control.Applicative
-  , guard
-  , partition
+  , module Control.Monad
+  , module Data.List
   ) where
 
 import Graphics.Gloss.Interface.Pure.Game hiding (shift, rotate)
 import GHC.Clock
 import Data.Bits
 import Control.Applicative
-import Control.Monad(guard)
+import Control.Monad(guard, mzero)
 import Data.List(partition)
